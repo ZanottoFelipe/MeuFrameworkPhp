@@ -18,8 +18,9 @@ namespace App\Config;
 // define('TIPO_BANCO', 'mysql');
 
 // DEFINE A URL DO SITE
-//define('URL', 'teste.zanottofelipe.com/calendario/');
-define('URL', 'localhost/calendario/');
+
+define("NOME_SITE", "");
+define('URL', 'localhost/'.NOME_SITE.'/');
 
 
 
@@ -29,20 +30,19 @@ define('URL', 'localhost/calendario/');
 define('CHAVE_PAGSEGURO', '');
 define('CORREIOS_TOKEN', '');
 
-define("NOME_SITE", "calendario");
 define('SITEDESC', '');
 define('FONE', '');
 define('CNPJ', '');
 define('CELULAR', '');
-define('EMAIL', 'lipe_z@hotmail.com');
-define('EMAIL_PARA_AVISOS', 'falecom@zanottofelipe.com');
+define('EMAIL', '');
+define('EMAIL_PARA_AVISOS', '');
 define('SENHA_DO_EMAIL_PARA_AVISOS', '');
 define('HOST_DO_EMAIL_PARA_AVISOS', 'smtp.titan.email');
 define('NOME_DE_SAIDA_DO_EMAIL_PARA_AVISOS', '');
 define('PORTA_DO_EMAIL_PARA_AVISOS', '587');
 define('ENDERECO', '');
 define('NUMERO', '');
-define('CEP', '95250000');
+define('CEP', '');
 define('CIDADE', '');
 define('ESTADO', '');
 
